@@ -75,11 +75,7 @@ The final component registry was built by standardizing component names and dedu
 
 The retained herb-component edge table and the final SMILES registry are retained as separate curation-stage artifacts. The edge table has 22,658 distinct component labels; the registry has 22,392 distinct text labels across 22,444 structures. Use `src/reconcile_component_labels.py` to audit label overlap before making any new cross-stage mapping. The release does not impose an unverified name-only mapping.
 
-## Version reconciliation
 
-The included current curation-master workbook contains 106,864 data rows in its integrated herb-component edge column. The value **106,865** in the manuscript corresponds to the physical Excel row count when the header row is included.
-
-The same current workbook contains 6,018 pre-screening herb labels, whereas the manuscript describes 6,011 collected drugs. The 5,701 retained-herb count and 22,444-component count exactly match the current curation materials. The source folder provided for this release does not contain an earlier 6,011-herb snapshot. Before submission, either revise the manuscript's pre-screening count to 6,018 or replace `curation_master.xlsx` with the archived 6,011-herb source version and regenerate the release tables.
 
 ## Suggested code-availability statement
 
