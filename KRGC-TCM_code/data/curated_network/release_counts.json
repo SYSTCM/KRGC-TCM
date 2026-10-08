@@ -1,0 +1,10 @@
+{
+  "all_herb_component_edge_rows": 106864,
+  "all_herbs": 6018,
+  "all_normalised_compound_names": 22900,
+  "retained_herbs": 5701,
+  "retained_herb_component_edge_rows": 103105,
+  "retained_normalised_compound_names": 22658,
+  "component_registry_rows": 22444,
+  "component_registry_unique_smiles": 22444
+}
